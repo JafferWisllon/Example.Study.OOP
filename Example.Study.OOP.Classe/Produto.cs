@@ -4,6 +4,13 @@
     {
         private int Id;
         public string Descricao {  get; set; }
+        //public readonly int Estoque;
+        public int Estoque { get; }
+        
+        public Produto()
+        {
+            Estoque = 1;
+        }
 
         public void ImprimirDescricao()
         {

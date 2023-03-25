@@ -7,10 +7,11 @@ namespace Example.Study.OOP.Objeto
         static void Main(string[] args)
         {
             var produto = new Produto();
-            produto.Descricao = "Teclado";
             produto.SetId(10);
-
+            produto.Descricao = "Teclado";
+            
             produto.ImprimirDescricao();
+            Console.WriteLine(produto.Estoque);
         }
     }
 }
