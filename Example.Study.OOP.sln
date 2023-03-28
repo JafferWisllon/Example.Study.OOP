@@ -11,7 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Study.OOP.Objeto", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Herança", "02 - Herança", "{893CB104-1011-44AB-9FED-AC45EF1D83CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Study.OOP.Heranca", "Example.Study.OOP.Heranca\Example.Study.OOP.Heranca.csproj", "{07CE49E5-D0AC-45F5-8470-A341ECE1318B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Study.OOP.Heranca", "Example.Study.OOP.Heranca\Example.Study.OOP.Heranca.csproj", "{07CE49E5-D0AC-45F5-8470-A341ECE1318B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Abstracao", "03 - Abstracao", "{C863616E-658C-4851-B5E1-E4F3A674DD37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Study.OOP.Abstracao", "Example.Study.OOP.Abstracao\Example.Study.OOP.Abstracao.csproj", "{9AF641DC-A1CB-412A-836C-F2C5A0DE891C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Polimorfismo", "04 - Polimorfismo", "{5FC64110-CF1C-4E62-80EC-DF2B0F9A36BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Study.OOP.Polimorfismo", "Example.Study.OOP.Polimorfismo\Example.Study.OOP.Polimorfismo.csproj", "{D4F58E64-5C29-4DDF-96B4-470D1DC73CBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +39,14 @@ Global
 		{07CE49E5-D0AC-45F5-8470-A341ECE1318B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07CE49E5-D0AC-45F5-8470-A341ECE1318B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07CE49E5-D0AC-45F5-8470-A341ECE1318B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AF641DC-A1CB-412A-836C-F2C5A0DE891C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF641DC-A1CB-412A-836C-F2C5A0DE891C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF641DC-A1CB-412A-836C-F2C5A0DE891C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF641DC-A1CB-412A-836C-F2C5A0DE891C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4F58E64-5C29-4DDF-96B4-470D1DC73CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4F58E64-5C29-4DDF-96B4-470D1DC73CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4F58E64-5C29-4DDF-96B4-470D1DC73CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4F58E64-5C29-4DDF-96B4-470D1DC73CBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +55,8 @@ Global
 		{7D04BE70-5BA5-485F-BB6E-8607E9E7FE4C} = {87A62D7A-DAD0-4501-9C98-65C4AD39C744}
 		{B3A63D5A-9B24-470C-A67C-6259B239D3D0} = {87A62D7A-DAD0-4501-9C98-65C4AD39C744}
 		{07CE49E5-D0AC-45F5-8470-A341ECE1318B} = {893CB104-1011-44AB-9FED-AC45EF1D83CB}
+		{9AF641DC-A1CB-412A-836C-F2C5A0DE891C} = {C863616E-658C-4851-B5E1-E4F3A674DD37}
+		{D4F58E64-5C29-4DDF-96B4-470D1DC73CBB} = {5FC64110-CF1C-4E62-80EC-DF2B0F9A36BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {421DEE10-44B9-4EF0-8012-393CA8AADDD1}
