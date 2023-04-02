@@ -11,7 +11,7 @@ namespace Example.Study.OOP.Polimorfismo
         private static void AquecerAgua() { }
         private static void MoerGraos() { }
         
-        public void PrepararCage()
+        public void PrepararCafe()
         {
             Testar();
             AquecerAgua();
